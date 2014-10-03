@@ -4,10 +4,6 @@ public class Person {
 
   private String personName;
 
-  public static void main(String[] args) {
-    System.out.println("smth");
-  }
-
   public Person(String name) {
     this.personName = name;
   }
@@ -20,7 +16,5 @@ public class Person {
     return personName;
 
   }
-
-  private Integer age;
 
 }
