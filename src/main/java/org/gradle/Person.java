@@ -15,7 +15,10 @@ public class Person {
 
   public String getPersonName() {
     return personName;
+  }
 
+  public Integer getAge() {
+    return age;
   }
 
 }
