@@ -3,6 +3,7 @@ package org.gradle;
 public class Person {
 
   private String personName;
+  private Integer age;
 
   public Person(String name) {
     this.personName = name;
