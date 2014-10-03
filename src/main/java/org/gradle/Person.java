@@ -2,14 +2,14 @@ package org.gradle;
 
 public class Person {
 
-  private String personName;
+  private String name;
 
   public Person(String name) {
-    this.personName = name;
+    this.name = name;
   }
 
-  public String getPersonName() {
-    return personName;
+  public String getName() {
+    return name;
   }
 
 }
