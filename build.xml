@@ -1,7 +1,7 @@
 <project name="sample-project" default="dist" basedir=".">
 
 	<description>
-        Simple example build file
+        Simple build file
     </description>
 
 	<!-- set global properties for this build -->
