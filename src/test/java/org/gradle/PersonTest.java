@@ -10,4 +10,10 @@ public class PersonTest {
     Person person = new Person("Larry");
     assertEquals("Larry", person.getName());
   }
+
+  @Test
+  public void canConstructAPersonWithDifferentName() {
+    Person person = new Person("Larry2");
+    assertEquals("Larry2", person.getName());
+  }
 }
