@@ -2,20 +2,14 @@ package org.gradle;
 
 public class Person {
 
-  private String personName;
-  private Integer age;
+  private String name;
 
   public Person(String name) {
-    this.personName = name;
+    this.name = name;
   }
 
-  public void setPersonName(String name) {
-    this.personName = name;
-  }
-
-  public String getPersonName() {
-    return personName;
-
+  public String getName() {
+    return name;
   }
 
 }
